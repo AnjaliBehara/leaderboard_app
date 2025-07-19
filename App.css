@@ -1,0 +1,82 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+/* UserList.css */
+.user-list-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.init-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.user-dropdown label {
+    margin-right: 10px;
+}
+
+.user-dropdown select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.selected-user-info {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px dashed #eee;
+    border-radius: 5px;
+}
+
+.claim-button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Leaderboard.css */
+.leaderboard-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.leaderboard-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.leaderboard-container th, .leaderboard-container td {
+        border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    }
+    .leaderboard-container th {
+    background-color: #f2f2f2;
+}
+
